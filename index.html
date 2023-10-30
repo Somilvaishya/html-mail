@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Email Title</title>
+    <style>
+      @font-face {
+        font-family: Myriad Pro Regular;
+        src: url(../font-family/Myriad\ Pro\ Regular.ttf);
+      }
+      * {
+        font-family: Myriad Pro Regular;
+      }
+
+      /* Reset some default email styles */
+      body,
+      table,
+      td,
+      a {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      /* Set a background color and font styles */
+      body {
+        background-color: #f1f4f4;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+      }
+
+      /* Style your email content */
+      .container {
+        background-color: #ffffff;
+        padding: 0px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .overlay-image {
+        position: relative;
+        display: inline-block;
+      }
+
+      .overlay-image img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .overlay-image .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .social-icon {
+        margin-top: 1%;
+      }
+
+      ol {
+    counter-reset: item;
+    list-style-type: none;
+    line-height: 1.5; /* Adjust line-height as needed */
+    margin-left: 50px;
+}
+
+ol li {
+    display: block;
+    position: relative;
+}
+
+ol li span {
+    margin-left: 30px;
+}
+
+ol li:before {
+    content: counter(item) " ";
+    counter-increment: item;
+    color: #000;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: -25px;
+    transform: translateY(-50%); /* Center vertically */
+    
+    border: solid 3px #8f2628;
+    height: 1.2em;
+    width: 1.2em;
+    line-height: 1.2em;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+      /* Add additional styles for your email content here */
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Your email content goes here -->
+     
+      <div  class="overlay-image"  >
+          <img src="./01-copy.png" alt="Background Image" />
+         <div  class="overlay">
+               <div style="width: 50%; margin-left: 45%; margin-bottom: 6%;"><img  src="../images/logo.png" /></div>
+              
+
+              <div style="padding: 30px;">
+                <h1><span style="font-size: larger;">Congratulations,</span><br> You are now one step<br> closer to Quick & easy<br> business banking!</h1>
+              </div><br><br><br><br>
+              <div style="font-size: 14px; color: #878787; padding: 30px; ">
+              <p>Dear customer,<br><br>Congratulations on taking the first step towards quick & easy business banking with<br> IndusInd Bank Digital Current Account!<br><br>Your basic details have been submitted successfully.<br><br>Resume your account opening journey by entering your business details and enjoy:
+ 
+              <ol style="list-style: circle; padding: 0;">
+                <li style="margin-bottom: 10px;">Seamless Mobile & Internet Banking</li>
+                <li style="margin-bottom: 10px;"> Free Cash Deposit Limit of at least Rs 10 Lakhs</li>
+                <li style="margin-bottom: 10px;">Daily Transaction Limit of up to Rs 1 crore</li>
+              </ol>
+
+                   and much more...
+                </p>
+              </div>
+              <div
+                style="
+                  text-align: center;
+                  padding: 20px;
+                  position: absolute;
+                  top: 700px;
+                  left: 170px;
+                "
+              >
+                <a
+                  href="https://indsig.indusind.com/diyca/home"
+                  target="_blank"
+                  style="
+                    background: #8f2628;
+                    color: #fff;
+                    text-decoration: none;
+                    padding: 10px 20px;
+                    border-radius: 20px;
+                    font-size: 15px;
+                    display: inline-block;
+                  "
+                >
+                  RESUME JOURNEY NOW!
+                </a>
+              </div><br><br>
+              <div style=" display: flex;">
+                <img
+                  src="../images/pre-footer-bull.png"
+                  alt="Bull Image"
+                  style="display: block; max-width: 100%;"
+                />
+                <p>Warm Regards,<br />IndusInd Bank</p>
+                
+                <p
+                  style="
+                    margin-left: 0px;
+                    font-size: 12px;
+                    padding-top: 20px;
+                    color: #525151;
+                  "
+                >
+                  *For Proprietor - Rs 1 crore on net banking and for individual -
+                  Rs 50 Lakhs on net banking
+                </p>
+              </div><br>
+              <div
+  class="footer"
+  style="background-color: #8f2628; text-align: center; margin-top: -15px"
+>
+  <div class="social-icons" style="display: flex; justify-content: flex-end">
+    <p style="color: #fff; margin-left: 10px">Connect with us:</p>
+    <a
+      href="https://www.facebook.com"
+      class="social-icon"
+      target="_blank"
+      style="text-decoration: none; margin-left: 10px"
+    >
+      <img
+        src="../images/facebook-logo.png"
+        alt="Facebook"
+        style="width: 32px"
+      />
+    </a>
+    <a
+      href="https://twitter.com"
+      class="social-icon"
+      target="_blank"
+      style="text-decoration: none; margin-left: 10px"
+    >
+      <img src="../images/twitter-logo.png" alt="Twitter" style="width: 32px" />
+    </a>
+    <a
+      href="https://www.linkedin.com"
+      class="social-icon"
+      target="_blank"
+      style="text-decoration: none; margin-left: 10px"
+    >
+      <img
+        src="../images/linkedin-logo.png"
+        alt="LinkedIn"
+        style="width: 22px; margin-top: 5px"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com"
+      class="social-icon"
+      target="_blank"
+      style="text-decoration: none; margin-left: 10px"
+    >
+      <img
+        src="../images/instagram-logo.png"
+        alt="Instagram"
+        style="width: 35px"
+      />
+    </a>
+  </div>
+</div>
+
+       </div>  
+      </div>
+    </div>
+          
+    
+  </body>
+</html>
