@@ -7,7 +7,7 @@
     <style>
       @font-face {
         font-family: Myriad Pro Regular;
-        src: url(../font-family/Myriad\ Pro\ Regular.ttf);
+        src: url(./font-family/Myriad\ Pro\ Regular.ttf);
       }
       * {
         font-family: Myriad Pro Regular;
@@ -33,6 +33,7 @@
       .container {
         background-color: #ffffff;
         padding: 0px;
+        min-width: 360px;
         max-width: 600px;
         margin: 0 auto;
       }
@@ -42,7 +43,8 @@
         display: inline-block;
       }
 
-      .overlay-image img{
+      .overlay-image  p ol{
+        
         max-width: 100%;
         height: auto;
         display: block;
@@ -103,13 +105,13 @@ ol li:before {
       <div  class="overlay-image"  >
           <img src="./01-copy.png" alt="Background Image" />
          <div  class="overlay">
-               <div style="width: 50%; margin-left: 45%; margin-bottom: 6%;"><img  src="./images/logo.png" /></div>
+               <div style="width: 40%; margin-left: 45%; "><img style="width: 320px;"  src="./images/logo.png" /></div>
               
 
               <div style="padding: 30px;">
-                <h1><span style="font-size: larger;">Congratulations,</span><br> You are now one step<br> closer to Quick & easy<br> business banking!</h1>
+                <h1 style="min-width: 50px;"><span style="font-size: larger; font: bold;">Congratulations,</span><br> You are now one step<br> closer to Quick & easy<br> business banking!</h1>
               </div><br><br><br><br>
-              <div style="font-size: 14px; color: #878787; padding: 30px; ">
+              <div style="font-size: 14px; color: #878787; padding: 30px; margin-top: 5%; ">
               <p>Dear customer,<br><br>Congratulations on taking the first step towards quick & easy business banking with<br> IndusInd Bank Digital Current Account!<br><br>Your basic details have been submitted successfully.<br><br>Resume your account opening journey by entering your business details and enjoy:
  
               <ol style="list-style: circle; padding: 0;">
@@ -124,10 +126,11 @@ ol li:before {
               <div
                 style="
                   text-align: center;
-                  padding: 20px;
+                  padding: 0;
                   position: absolute;
-                  top: 700px;
-                  left: 170px;
+                  top: 80%;
+                  left: 35%;
+                 
                 "
               >
                 <a
@@ -158,7 +161,7 @@ ol li:before {
                   style="
                     margin-left: 0px;
                     font-size: 12px;
-                    padding-top: 20px;
+                    padding-top: 40px;
                     color: #525151;
                   "
                 >
